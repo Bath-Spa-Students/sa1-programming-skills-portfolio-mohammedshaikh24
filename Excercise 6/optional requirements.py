@@ -1,3 +1,6 @@
+### Optional Requirements:
+#Modify the program to include a maximum of 5 password attempts. If the user enters the wrong password, inform them of the remaining attempts. If the maximum number of attempts is reached, inform the user that the authorities have been alerted.
+
 real_password = "12345"# The right password for user verification
 
 # Maximum number of attempts
@@ -12,7 +15,7 @@ while attempts < attempt_limit:
     user_password = input("Enter the password that is required: ")#assigning a question to a variable for the user to input a password
     
     if user_password == real_password:
-            print("Entry granted. Password confirmed.!")#these words are print,if the answer given is correct.
+            print("Entry granted. Password confirmed.!")#"Entry granted. Password confirmed.!" is printed if the answer given by the user is right.
             break#code that breaks the loop if answer given is correct 
     else:
         attempts += 1#everytime the password is wrong, the attempts goes up by 1.
