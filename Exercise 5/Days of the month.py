@@ -8,7 +8,7 @@
 #Assigning all the months to the variable months
 days_months = {
     1: 31,  # January has 31 days
-    2: 28,   # February tusually has 28 days 
+    2: 28,   # February usually has 28 days 
     3: 31,   # March has 31 days
     4: 30,   # April has 30 days
     5: 31,   # May has 31 days
