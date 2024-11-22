@@ -17,10 +17,10 @@ while True:
 
 #prompt to store all the information  given by the user
 user_info = {
-    "name": user_name,
-    "hometown": user_hometown,
-    "age": user_age
+    "M": user_name,
+    "N": user_hometown,
+    "R": user_age
 }
 
 #adding /n to every answer so that it appears in a new line
-print(f"Name: {user_info['name']}\nHometown: {user_info['hometown']}\nAge: {user_info['age']}")
+print(f"Name: {user_info['M']}\nHometown: {user_info['N']}\nAge: {user_info['R']}")
