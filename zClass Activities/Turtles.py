@@ -1,0 +1,18 @@
+import turtle
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(180)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(75)
+turtle.right(90)
+turtle.forward(100)
+
+turtle.forward(75)
+turtle.right(90)
+turtle.forward(100)
